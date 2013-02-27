@@ -45,7 +45,7 @@ Also has
 
 ## MIT Licenced
 
-  [3]: http://david-dm.org/Colingo/deep-merge.png
-  [4]: http://david-dm.org/Colingo/deep-merge
-  [5]: http://ci.testling.com/Colingo/deep-merge.png
-  [6]: http://ci.testling.com/Colingo/deep-merge
+  [3]: http://david-dm.org/Raynos/by.png
+  [4]: http://david-dm.org/Raynos/by
+  [5]: http://ci.testling.com/Raynos/by.png
+  [6]: http://ci.testling.com/Raynos/by
