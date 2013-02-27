@@ -6,13 +6,16 @@ Select elements by class or id or tag
 
 Because `document.getElementsByClassName` is simply too verbose.
 
+Also these functions return arrays! You can also pass an optional
+first parameter to give it a different context then document.
+
 ```js
 var byClass = require("by/class")
     , queryAll = require("by/queryAll")
 
 var elems = byClass("some-class")
 
-var other = queryAll(".some div.selector", elems[0])
+var other = queryAll(elems[0], ".some div.selector")
 ```
 
 Also has

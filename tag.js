@@ -1,5 +1,17 @@
+var document = require("global/document")
+var slice = Array.prototype.slice
+
 module.exports = byTag
 
-function byTag(tag, context) {
-    return (context || document).getElementsByTagName(tag)
+function byTag(context, tag) {
+    if (typeof context === "string") {
+        tag = context
+        context = null
+    }
+
+    if (!context) {
+        context = document
+    }
+
+    return slice.call(context.getElementsByTagName(tag))
 }
