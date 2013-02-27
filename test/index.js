@@ -1,7 +1,7 @@
 var surface = "\
     <div id='anchor'>\
-        <div name='elem1'></div>\
-        <div name='elem1'></div>\
+        <a name='elem1'></a>\
+        <a name='elem1'></a>\
         <div id='id1'></div>\
         <div class='elem3'></div>\
         <div class='elem3'></div>\
@@ -9,8 +9,8 @@ var surface = "\
         <div class='foo' data-attr='elem5'></div>\
         <div class='foo' data-attr='elem5'></div>\
         <div id='nested'>\
-            <div name='elem1'></div>\
-            <div name='elem1'></div>\
+            <a name='elem1'></a>\
+            <a name='elem1'></a>\
             <div id='id2'></div>\
             <div class='elem3'></div>\
             <div class='elem3'></div>\
