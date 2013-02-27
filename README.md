@@ -1,5 +1,9 @@
 # by
 
+[![dependency status][3]][4]
+
+[![browser support][5]][6]
+
 Select elements by class or id or tag
 
 ## Example
@@ -40,3 +44,8 @@ Also has
  - Raynos
 
 ## MIT Licenced
+
+  [3]: http://david-dm.org/Colingo/deep-merge.png
+  [4]: http://david-dm.org/Colingo/deep-merge
+  [5]: http://ci.testling.com/Colingo/deep-merge.png
+  [6]: http://ci.testling.com/Colingo/deep-merge
